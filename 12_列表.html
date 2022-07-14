@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>12_列表</title>
+</head>
+<body>
+<!--
+HTML无序列表
+    无序列表是一个项目的列表，此列项目使用粗体圆点（典型的小黑圆圈）进行标记。
+    无序列表使用 <ul> 标签
+-->
+<h2>无序列表</h2>
+<ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+
+<!--
+HTML 有序列表
+    同样，有序列表也是一列项目，列表项目使用数字进行标记。 有序列表始于 <ol> 标签。每个列表项始于 <li> 标签。
+    列表项使用数字来标记。
+-->
+<h2>有序列表</h2>
+<ol>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ol>
+
+<ol start="50">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ol>
+
+<!--
+HTML 自定义列表
+    自定义列表不仅仅是一列项目，而是项目及其注释的组合。
+    自定义列表以 <dl> 标签开始。每个自定义列表项以 <dt> 开始。每个自定义列表项的定义以 <dd> 开始。
+-->
+<h2>自定义列表</h2>
+<dl>
+    <dd>Coffee</dd>
+    <dd>- black hot drink</dd>
+    <dd>Milk</dd>
+    <dd>- white cold drink</dd>
+</dl>
+
+<!--
+注意事项 - 有用提示
+    提示: 列表项内部可以使用段落、换行符、图片、链接以及其他列表等等。
+-->
+
+<!--
+不同类型的有序列表
+    本例演示不同类型的有序列表。
+-->
+<h2>不同类型的有序列表:</h2>
+<h4>编号列表：</h4>
+<ol>
+    <li>Apples</li>
+    <li>Bananas</li>
+    <li>Lemons</li>
+    <li>Oranges</li>
+</ol>
+
+<h4>大写字母列表：</h4>
+<ol type="A">
+    <li>Apples</li>
+    <li>Bananas</li>
+    <li>Lemons</li>
+    <li>Oranges</li>
+</ol>
+
+<h4>小写字母列表：</h4>
+<ol type="a">
+    <li>Apples</li>
+    <li>Bananas</li>
+    <li>Lemons</li>
+    <li>Oranges</li>
+</ol>
+
+<h4>罗马数字列表：</h4>
+<ol type="I">
+    <li>Apples</li>
+    <li>Bananas</li>
+    <li>Lemons</li>
+    <li>Oranges</li>
+</ol>
+
+<h4>小写罗马数字列表：</h4>
+<ol type="i">
+    <li>Apples</li>
+    <li>Bananas</li>
+    <li>Lemons</li>
+    <li>Oranges</li>
+</ol>
+
+<!--
+不同类型的无序列表
+本例演示不同类型的无序列表。
+-->
+<h2>不同类型的无序列表:</h2>
+<h4>圆点列表：</h4>
+<ul style="list-style-type:disc">
+    <li>Apples</li>
+    <li>Bananas</li>
+    <li>Lemons</li>
+    <li>Oranges</li>
+</ul>
+
+<h4>圆圈列表：</h4>
+<ul style="list-style-type:circle">
+    <li>Apples</li>
+    <li>Bananas</li>
+    <li>Lemons</li>
+    <li>Oranges</li>
+</ul>
+
+<h4>正方形列表：</h4>
+<ul style="list-style-type:square">
+    <li>Apples</li>
+    <li>Bananas</li>
+    <li>Lemons</li>
+    <li>Oranges</li>
+</ul>
+
+<!--
+嵌套列表
+    本例演示如何嵌套列表。
+-->
+<h2>嵌套列表:</h2>
+<ul>
+    <li>Coffee</li>
+    <li>Tea
+        <ul>
+            <li>Black tea</li>
+            <li>Green tea</li>
+        </ul>
+    </li>
+    <li>Milk</li>
+</ul>
+
+<hr/>
+
+<ul>
+    <li>Coffee</li>
+    <li>Tea
+        <ul>
+            <li>Black tea</li>
+            <li>Green tea
+                <ul>
+                    <li>China</li>
+                    <li>Africa</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>Milk</li>
+</ul>
+
+<!--
+HTML 列表标签:
+
+标签  	描述
+<ol>	定义有序列表
+<ul>	定义无序列表
+<li>	定义列表项
+<dl>	定义列表
+<dt>	自定义列表项目
+<dd>	定义自定列表项的描述
+
+ul是 unordered lists的缩写 (无序列表)
+li是 list item的缩写 （列表项目）
+ol是 ordered lists的缩写（有序列表）
+dl是 definition lists的英文缩写 (自定义列表)
+dt是 definition term的缩写 (自定义列表组)
+dd是 definition description的缩写（自定义列表描述）
+nl是 navigation lists的英文缩写 （导航列表）
+tr是 table row的缩写 （表格中的一行）
+th是 table header cell的缩写 （表格中的表头）
+td是 table data cell的缩写 （表格中的一个单元格）
+-->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
